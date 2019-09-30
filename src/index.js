@@ -45,7 +45,7 @@ function App() {
     setEstado("Fim");
   };
 
-  if (estado === "Fim" || min === 0) {
+  if (estado === "Fim") {
     return (
       <div>
         <p>
